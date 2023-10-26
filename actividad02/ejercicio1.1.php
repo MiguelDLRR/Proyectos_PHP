@@ -12,10 +12,7 @@
   </form> 
   
   <?php
-    //Crea una aplicación que parta de un formulario en que se pida al usuario introducir un texto.
-    //El programa nos dirá si el texto introducido es un palíndromo o no. Ten en cuenta que el texto 
-    //que introduzca el usuario puede tener espacios.
- 
+
     //Creamos la funcion para comprobar que el texto introducido por el usuario es un palindromo    
     function Palindromo($texto) {
         // para eliminar los espacios y convertir el texto en minúsculas y así poder compararlo 
