@@ -8,11 +8,7 @@
 <body>
 <h1>Resultado de la operación</h1>
  <?php
-    //Realizar una aplicación que simule una calculadora. Constará de una página HTML con dos campos de texto para
-    // introducir los dos operadores, y 4 RadioButtons para seleccionar la operación: suma, resta, multiplicación y división.
-    // Se mostrará el resultado de la operación en una segunda página con la frase “El resultado de la 
-    // suma/resta/multiplicación/división es XXX”.
-    // Hacer el programa usando un formulario de tipo POST.
+  
     if ($_SERVER["REQUEST_METHOD"] == "POST") {       
         //lo primero es asignar el valor que introduce el usuario a las variables $operador.  Uso la funcion doubleval
         // para que no haya 
