@@ -23,10 +23,6 @@
     <button type="submit">Consultar</button>
 </form>
   <?php
-//Escribir un programa que represente el menú semanal de un restaurante utilizando un array asociativo. 
-//Las claves serán los días de la semana y los valores serán los platos.
-//El programa constará de un formulario en el que el usuario introducirá el día del que quiere consultar el menú.
-//A continuación se mostrará el plato que corresponda al día seleccionado.
 
 //Crear un array asociativo 
     $menu = array(
